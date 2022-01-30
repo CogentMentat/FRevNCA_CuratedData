@@ -1,4 +1,4 @@
-# FRevNCA_CuratedData
+# Speeches of the French Revolution: curated transcripts from the National Constituent Assembly, 1789 to 1791
 
 Curated and augmented data for 44,953 legislative speeches from the National Constituent Assembly during the French Revolution.  Companion to PNAS article [Individuals, institutions, and innovation in the debates of the French Revolution](https://www.pnas.org/content/115/18/4607.short) by Alexander T. J. Barron, Jenny Huang, Rebecca L. Spang, and Simon DeDeo.
 
