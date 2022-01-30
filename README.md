@@ -8,6 +8,29 @@ Curated and augmented data for 44,953 legislative speeches from the National Con
 
 This corpus was partially created from the [French Revolution Digital Archive](https://frda.stanford.edu/) (FRDA), a digitization of the Archives Parlementaires (AP) made available through the efforts of Stanford University Libraries and the Bibliothèque nationale de France.  This data contains the FRDA's OCR-generated text from a subset of speeches made during the National Constituent Assembly, the first legislative body of the French Revolution.  Each speech is augmented with date correction, speaker disambiguation, legislative role markers, political affiliation, and class membership.  See the [column guide](#column-guide) for more detail.  Also provided is the topic model trained from these speeches and used in the PNAS article.
 
+This data set is made publicly available as a resource for education and
+further research.  If you find it useful, we'd love to hear from you at
+atbarron [at] iu [dot] edu!  Also, please cite this work as the following:
+
+Individuals, institutions, and innovation in the debates of the French Revolution
+Alexander T. J. Barron, Jenny Huang, Rebecca L. Spang, Simon DeDeo
+Proceedings of the National Academy of Sciences May 2018, 115 (18) 4607-4612; DOI: 10.1073/pnas.1717729115
+
+```
+@article {Barron4607,
+	author = {Barron, Alexander T. J. and Huang, Jenny and Spang, Rebecca L. and DeDeo, Simon},
+	title = {Individuals, institutions, and innovation in the debates of the French Revolution},
+	volume = {115},
+	number = {18},
+	pages = {4607--4612},
+	year = {2018},
+	doi = {10.1073/pnas.1717729115},
+	publisher = {National Academy of Sciences},
+	URL = {https://www.pnas.org/content/115/18/4607},
+	journal = {Proceedings of the National Academy of Sciences}
+}
+```
+
 ## Files
 
 See `FRevNCA_CuratedData.ipynb` for details on each file below.
