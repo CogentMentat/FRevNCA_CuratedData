@@ -12,16 +12,10 @@ This data set is made publicly available as a resource for education and
 further research.  If you find it useful, we'd love to hear from you at
 atbarron [at] iu [dot] edu!  Also, please cite this work as the following:
 
-Individuals, institutions, and innovation in the debates of the French Revolution
-
-Alexander T. J. Barron, Jenny Huang, Rebecca L. Spang, Simon DeDeo
-
-Proceedings of the National Academy of Sciences
-
-May 2018, 115 (18) 4607-4612; DOI: 10.1073/pnas.1717729115
+Alexander T. J. Barron, Jenny Huang, Rebecca L. Spang, and Simon DeDeo, "Individuals, institutions, and innovation in the debates of the French Revolution," _PNAS_, vol. 115, pp. 4607–4612, May 2018.
 
 ```
-@article {Barron4607,
+@article {BarronFRev,
 	author = {Barron, Alexander T. J. and Huang, Jenny and Spang, Rebecca L. and DeDeo, Simon},
 	title = {Individuals, institutions, and innovation in the debates of the French Revolution},
 	volume = {115},
