@@ -1,8 +1,14 @@
 # FRevNCA_CuratedData
 
-Curated and augmented legislative speech data from the National Constituent Assembly during the French Revolution.  Companion to PNAS article [Individuals, institutions, and innovation in the debates of the French Revolution](https://www.pnas.org/content/115/18/4607.short).
+Curated and augmented data for 44,953 legislative speeches from the National Constituent Assembly during the French Revolution.  Companion to PNAS article [Individuals, institutions, and innovation in the debates of the French Revolution](https://www.pnas.org/content/115/18/4607.short).
 
 ## Files
+
+* `FRevNCA_speechdata.txt.gz`: contains raw and processed speech text, speaker information, and metadata.  utf-8 encoded, with '=+=' column delimiters and newline row delimiters, gzipped with level 9 compression (see `FRevNCA_CuratedData.ipynb` for details).
+
+## Notebooks
+
+* `FRevNCA_CuratedData.ipynb`: loads and describes data
 
 ## Column guide:
 
@@ -23,8 +29,6 @@ Curated and augmented legislative speech data from the National Constituent Asse
 * `RawTextEnTrans`: For giggles, I made a script circa ~2016 that queries Google Translate with all of the raw speeches.  Results included here.
 * `ProcessedText`: `RawTextFr` after light tokenization.
 * `ProcessedVocabText`: `ProcessedText` after removing words with fewer than 3 characters, stop words, then limiting to a 10,000-word vocabulary by highest observed frequency.
-
-## Notebooks
 
 ## Requirements (versions used)
 
