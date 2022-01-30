@@ -4,11 +4,16 @@ Curated and augmented data for 44,953 legislative speeches from the National Con
 
 ## Files
 
-* `FRevNCA_speechdata.txt.gz`: contains raw and processed speech text, speaker information, and metadata.  utf-8 encoded, with '=+=' column delimiters and newline row delimiters, gzipped with level 9 compression (see `FRevNCA_CuratedData.ipynb` for details).
+See `FRevNCA_CuratedData.ipynb` for details on each file below.
+
+* `FRevNCA_speechdata.txt.gz`: contains raw and processed speech text, speaker information, and metadata.  utf-8 encoded, with '=+=' column delimiters and newline row delimiters, gzipped with level 9 compression.
+* `FRevNCA_ProcessedVocabText_topics.gz`: topics trained from speech data via Latent Dirichlet Allocation.
+* `FRevNCA_ProcessedVocabText_topicmixtures.gz`: topic mixtures associated with the topics above
+* `FRevNCA_ProcessedVocabText_vocabbasis.txt.gz`: vocabulary basis for the topics
 
 ## Notebooks
 
-* `FRevNCA_CuratedData.ipynb`: loads and describes data
+* `FRevNCA_CuratedData.ipynb`: loads and describes data.
 
 ## Column guide:
 
