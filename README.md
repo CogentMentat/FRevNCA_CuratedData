@@ -2,6 +2,11 @@
 
 Curated and augmented data for 44,953 legislative speeches from the National Constituent Assembly during the French Revolution.  Companion to PNAS article [Individuals, institutions, and innovation in the debates of the French Revolution](https://www.pnas.org/content/115/18/4607.short).
 
+## Overview
+
+This corpus was created from the French Revolution Digital Archive (FRDA), a digitization of the Archives Parlementaires (AP) made available through the efforts of Stanford University Libraries and the Bibliothèque nationale de France.  This data contains the FRDA's OCR-generated text from a subset of speeches made during the National Constituent Assembly, the first legislative body of the French Revolution.  Each speech is augmented with date correction, speaker disambiguation, legislative role markers, political affiliation, and class membership.  See [Column guide](#column-guide) for more detail.  Also provided is the topic model trained from these speeches and used in the PNAS article.
+
+
 ## Files
 
 See `FRevNCA_CuratedData.ipynb` for details on each file below.
@@ -17,10 +22,12 @@ See `FRevNCA_CuratedData.ipynb` for details on each file below.
 
 ## Column guide:
 
+These are a curated and augmented subset of data obtained originally from the publicly available xml files posted on Stanford's FRDA website, retrieved for this work circa ~2015. The FRDA web interface has changed since then, but metadata relevant to the original xml remains for completeness.
+
 * `NCASpeechId`: universal speech index used for all data.
 * `Date`: date of the speech.  These were cleaned and corrected from the original, which had errors in order and in formatting.
 * `OrigFile`: original xml file.
-* `Volume`: original volume of the Archives Parlementaires (AP).
+* `Volume`: original volume of the AP.
 * `PbTagId`: location id used throughout the original xml, useful for old FRDA web interface or working with original xml files.  The speech falls after this PbTagId and before the next, in AP page order.
 * `PageNum`: page of the AP on which the speech occurs.
 * `SpeakerStr`: speaker string provided by the FRDA xml.
