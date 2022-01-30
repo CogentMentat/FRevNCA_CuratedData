@@ -13,8 +13,12 @@ further research.  If you find it useful, we'd love to hear from you at
 atbarron [at] iu [dot] edu!  Also, please cite this work as the following:
 
 Individuals, institutions, and innovation in the debates of the French Revolution
+
 Alexander T. J. Barron, Jenny Huang, Rebecca L. Spang, Simon DeDeo
-Proceedings of the National Academy of Sciences May 2018, 115 (18) 4607-4612; DOI: 10.1073/pnas.1717729115
+
+Proceedings of the National Academy of Sciences
+
+May 2018, 115 (18) 4607-4612; DOI: 10.1073/pnas.1717729115
 
 ```
 @article {Barron4607,
