@@ -1,12 +1,12 @@
 # FRevNCA_CuratedData
 
-Curated and augmented data for 44,953 legislative speeches from the National Constituent Assembly during the French Revolution.  Companion to PNAS article [Individuals, institutions, and innovation in the debates of the French Revolution](https://www.pnas.org/content/115/18/4607.short).
+Curated and augmented data for 44,953 legislative speeches from the National Constituent Assembly during the French Revolution.  Companion to PNAS article [Individuals, institutions, and innovation in the debates of the French Revolution](https://www.pnas.org/content/115/18/4607.short) by Alexander T. J. Barron, Jenny Huang, Rebecca L. Spang, and Simon DeDeo.
 
-![From Oath to Science](Cozzarelli_FRevNCA_CuratedDataGithub_ATJB.png "From Oath to Science")
+![Insights, propagated from resonant Revolution](Cozzarelli_FRevNCA_CuratedDataGithub_ATJB.png "Insights, propagated from resonant Revolution")
 
 ## Overview
 
-This corpus was created from the [French Revolution Digital Archive](https://frda.stanford.edu/) (FRDA), a digitization of the Archives Parlementaires (AP) made available through the efforts of Stanford University Libraries and the Bibliothèque nationale de France.  This data contains the FRDA's OCR-generated text from a subset of speeches made during the National Constituent Assembly, the first legislative body of the French Revolution.  Each speech is augmented with date correction, speaker disambiguation, legislative role markers, political affiliation, and class membership.  See the [column guide](#column-guide) for more detail.  Also provided is the topic model trained from these speeches and used in the PNAS article.
+This corpus was partially created from the [French Revolution Digital Archive](https://frda.stanford.edu/) (FRDA), a digitization of the Archives Parlementaires (AP) made available through the efforts of Stanford University Libraries and the Bibliothèque nationale de France.  This data contains the FRDA's OCR-generated text from a subset of speeches made during the National Constituent Assembly, the first legislative body of the French Revolution.  Each speech is augmented with date correction, speaker disambiguation, legislative role markers, political affiliation, and class membership.  See the [column guide](#column-guide) for more detail.  Also provided is the topic model trained from these speeches and used in the PNAS article.
 
 ## Files
 
